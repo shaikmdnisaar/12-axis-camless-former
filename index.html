@@ -1,0 +1,2649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12-Axis Camless CNC Spring & Wire Former | Bangalore Setup & Investment Guide</title>
+  <meta name="description" content="Comprehensive interactive guide, technical specifications, factory layout, ecosystem directory, and CapEx/ROI calculator for setting up a 12-Axis Camless Spring Former (0.5–4.0mm, ₹28L–₹44L) in Bangalore & Hosur clusters.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0a0d14;
+      --bg-card: #121722;
+      --bg-card-hover: #171f2e;
+      --bg-subtle: #192233;
+      --border-color: #243047;
+      --border-glow: #00e5ff33;
+      --primary: #00e5ff;
+      --primary-dim: #00b4cc;
+      --primary-glow: rgba(0, 229, 255, 0.25);
+      --accent-orange: #ff9100;
+      --accent-green: #00e676;
+      --accent-purple: #b388ff;
+      --text-main: #f0f4fc;
+      --text-muted: #8e9bb3;
+      --text-dim: #5c6980;
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --shadow-sm: 0 4px 12px rgba(0,0,0,0.3);
+      --shadow-lg: 0 12px 36px rgba(0,0,0,0.5);
+      --glow-cyan: 0 0 24px rgba(0, 229, 255, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(0, 229, 255, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(255, 145, 0, 0.04) 0%, transparent 45%),
+        linear-gradient(rgba(18, 23, 34, 0.3) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(18, 23, 34, 0.3) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+    }
+
+    /* Container & Layout */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Top Navigation */
+    header.top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 13, 20, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 16px 0;
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, var(--primary), #0077ff);
+      color: #000;
+      font-family: var(--font-mono);
+      font-weight: 800;
+      font-size: 13px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      letter-spacing: 0.5px;
+    }
+
+    .brand-title {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+
+    .brand-title span {
+      font-size: 11px;
+      font-family: var(--font-mono);
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--primary);
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-quick-calc {
+      background: rgba(0, 229, 255, 0.1);
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+
+    .btn-quick-calc:hover {
+      background: var(--primary);
+      color: #000;
+      box-shadow: 0 0 16px var(--primary-glow);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 60px 0 40px;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 229, 255, 0.08);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    .badge-pill .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background-color: var(--accent-green);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--accent-green);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.2); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: 46px;
+      line-height: 1.15;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 .highlight {
+      background: linear-gradient(135deg, #00e5ff 0%, #00a2ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .specs-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 36px;
+    }
+
+    .spec-chip {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      padding: 10px 16px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .spec-chip .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+    }
+
+    .spec-chip .val {
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+      font-family: var(--font-mono);
+    }
+
+    .spec-chip.price .val {
+      color: var(--accent-green);
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), #0099ff);
+      color: #0a0d14;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+      box-shadow: 0 8px 24px rgba(0, 229, 255, 0.3);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(0, 229, 255, 0.45);
+    }
+
+    .btn-secondary {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      font-weight: 600;
+      padding: 14px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      transition: all 0.25s ease;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--primary);
+      background: var(--bg-card-hover);
+      color: var(--primary);
+    }
+
+    /* Machine Visual Showcase Card */
+    .hero-visual-card {
+      background: linear-gradient(180deg, #151c2a 0%, #0d121c 100%);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 24px;
+      position: relative;
+      box-shadow: var(--shadow-lg), var(--glow-cyan);
+      overflow: hidden;
+    }
+
+    .machine-schematic-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: 12px;
+    }
+
+    .schematic-tag {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* 12-Axis Radial Interactive Canvas / Diagram */
+    .cam-stage {
+      position: relative;
+      width: 100%;
+      height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    svg.radial-head-svg {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.15));
+    }
+
+    .axis-node {
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .axis-node:hover circle.slide-handle {
+      fill: var(--primary);
+      filter: drop-shadow(0 0 8px var(--primary));
+    }
+
+    .axis-node.active circle.slide-handle {
+      fill: var(--accent-orange);
+      stroke: #fff;
+      stroke-width: 2px;
+    }
+
+    .inspector-panel {
+      background: rgba(18, 23, 34, 0.95);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin-top: 16px;
+      font-size: 13px;
+    }
+
+    .inspector-panel .ins-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+
+    .inspector-panel .ins-desc {
+      color: var(--text-muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    /* Navigation Sections Bar */
+    .section-nav-strip {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      padding: 12px 0;
+      position: sticky;
+      top: 73px;
+      z-index: 90;
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding-bottom: 4px;
+    }
+
+    .nav-tabs::-webkit-scrollbar {
+      display: none;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tab-btn:hover {
+      color: #fff;
+      background: var(--bg-subtle);
+    }
+
+    .tab-btn.active {
+      background: rgba(0, 229, 255, 0.12);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Section Styling */
+    section {
+      padding: 70px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .section-header {
+      margin-bottom: 40px;
+    }
+
+    .section-header .sub-badge {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .section-header h2 {
+      font-family: var(--font-heading);
+      font-size: 34px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 16px;
+      max-width: 780px;
+      margin-top: 10px;
+    }
+
+    /* Cards Grid */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 24px;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      border-color: rgba(0, 229, 255, 0.4);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(0, 229, 255, 0.1);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      font-size: 20px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(0, 229, 255, 0.2);
+    }
+
+    .card h3 {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    /* Machine Models Comparison Table */
+    .comparison-table-wrapper {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      overflow-x: auto;
+      margin-top: 24px;
+    }
+
+    table.tech-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    table.tech-table th, table.tech-table td {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    table.tech-table th {
+      background: rgba(0, 0, 0, 0.3);
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    table.tech-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    table.tech-table .model-name {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .tag-badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-family: var(--font-mono);
+      font-weight: 600;
+    }
+
+    .tag-green { background: rgba(0, 230, 118, 0.15); color: var(--accent-green); border: 1px solid rgba(0, 230, 118, 0.3); }
+    .tag-cyan { background: rgba(0, 229, 255, 0.15); color: var(--primary); border: 1px solid rgba(0, 229, 255, 0.3); }
+    .tag-orange { background: rgba(255, 145, 0, 0.15); color: var(--accent-orange); border: 1px solid rgba(255, 145, 0, 0.3); }
+
+    /* Interactive Cost / ROI Calculator */
+    .calc-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 36px;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 40px;
+    }
+
+    .calc-inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .input-label-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .input-label-row .cur-val {
+      color: var(--primary);
+      font-family: var(--font-mono);
+    }
+
+    input[type=range] {
+      width: 100%;
+      height: 6px;
+      background: var(--bg-subtle);
+      border-radius: 4px;
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--primary);
+      cursor: pointer;
+      box-shadow: 0 0 10px var(--primary);
+    }
+
+    .calc-summary-card {
+      background: linear-gradient(145deg, #161f30 0%, #0e1422 100%);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      border-radius: 16px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .metric-hero {
+      text-align: center;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      margin-bottom: 20px;
+    }
+
+    .metric-hero .label {
+      font-size: 13px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+      letter-spacing: 1px;
+    }
+
+    .metric-hero .big-number {
+      font-size: 38px;
+      font-weight: 800;
+      font-family: var(--font-heading);
+      color: var(--accent-green);
+      margin-top: 4px;
+    }
+
+    .metric-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 14px;
+    }
+
+    .metric-row .m-label {
+      color: var(--text-muted);
+    }
+
+    .metric-row .m-val {
+      font-family: var(--font-mono);
+      font-weight: 700;
+      color: #fff;
+    }
+
+    /* Bangalore Cluster Map & Guide */
+    .cluster-selector {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .cluster-tab {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .cluster-tab.active, .cluster-tab:hover {
+      border-color: var(--primary);
+      color: #fff;
+      background: var(--bg-subtle);
+    }
+
+    .cluster-detail-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 32px;
+    }
+
+    .cluster-badges {
+      display: flex;
+      gap: 12px;
+      margin: 16px 0 24px;
+      flex-wrap: wrap;
+    }
+
+    /* Timeline Roadmap */
+    .timeline {
+      position: relative;
+      margin-top: 30px;
+      padding-left: 30px;
+      border-left: 2px solid var(--border-color);
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 36px;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -37px;
+      top: 4px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--primary);
+      box-shadow: 0 0 10px var(--primary);
+    }
+
+    .timeline-item .time-tag {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--accent-orange);
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      display: inline-block;
+    }
+
+    .timeline-item h4 {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .timeline-item p {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    /* Products Gallery */
+    .product-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 24px;
+    }
+
+    .spring-type-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .spring-type-card .icon-box {
+      width: 100%;
+      height: 120px;
+      background: var(--bg-subtle);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      overflow: hidden;
+      border: 1px dashed rgba(255,255,255,0.1);
+    }
+
+    /* Critical Factors Section */
+    .factor-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 24px;
+      position: relative;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .factor-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 229, 255, 0.15);
+    }
+    .factor-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 14px;
+    }
+    .factor-severity {
+      font-size: 11px;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .sev-critical { background: rgba(255, 71, 87, 0.15); color: #ff4757; border: 1px solid rgba(255, 71, 87, 0.4); }
+    .sev-high { background: rgba(255, 145, 0, 0.15); color: var(--accent-orange); border: 1px solid rgba(255, 145, 0, 0.4); }
+    .sev-vital { background: rgba(0, 229, 255, 0.15); color: var(--primary); border: 1px solid rgba(0, 229, 255, 0.4); }
+
+    .factor-mitigation {
+      margin-top: 14px;
+      background: var(--bg-subtle);
+      border-left: 3px solid var(--primary);
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      font-size: 13px;
+    }
+    .factor-mitigation strong {
+      color: var(--primary);
+      display: block;
+      margin-bottom: 3px;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+    }
+
+    /* Animated Visual Roadmap Stepper */
+    .roadmap-interactive-wrapper {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+    }
+
+    .roadmap-controls-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .btn-auto-tour {
+      background: rgba(0, 229, 255, 0.12);
+      border: 1px solid var(--primary);
+      color: var(--primary);
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.25s ease;
+    }
+    .btn-auto-tour:hover {
+      background: var(--primary);
+      color: #000;
+      box-shadow: 0 0 16px var(--primary-glow);
+    }
+    .btn-auto-tour.tour-active {
+      background: var(--accent-green);
+      color: #000;
+      border-color: var(--accent-green);
+    }
+
+    .stepper-nav {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+      margin-bottom: 30px;
+      position: relative;
+    }
+
+    .stepper-nav::before {
+      content: '';
+      position: absolute;
+      top: 24px;
+      left: 30px;
+      right: 30px;
+      height: 3px;
+      background: #1e283b;
+      z-index: 1;
+    }
+
+    .stepper-progress-fill {
+      position: absolute;
+      top: 24px;
+      left: 30px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--accent-green));
+      z-index: 2;
+      transition: width 0.4s ease;
+      box-shadow: 0 0 10px var(--primary);
+    }
+
+    .step-btn {
+      position: relative;
+      z-index: 3;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 14px 10px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .step-btn:hover {
+      border-color: var(--primary);
+      background: var(--bg-card-hover);
+    }
+
+    .step-btn.active {
+      border-color: var(--primary);
+      background: rgba(0, 229, 255, 0.12);
+      box-shadow: 0 0 16px rgba(0, 229, 255, 0.2);
+    }
+
+    .step-number {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #1c2538;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 700;
+      border: 1px solid var(--border-color);
+      transition: all 0.25s ease;
+    }
+
+    .step-btn.active .step-number {
+      background: var(--primary);
+      color: #000;
+      border-color: #fff;
+      box-shadow: 0 0 10px var(--primary);
+    }
+
+    .step-btn.completed .step-number {
+      background: var(--accent-green);
+      color: #000;
+      border-color: var(--accent-green);
+    }
+
+    .step-btn .step-title-text {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .step-btn .step-days-text {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+    }
+
+    /* Roadmap Visual Stage Content Display */
+    .stage-display-card {
+      background: linear-gradient(160deg, #131926 0%, #0d121c 100%);
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      border-radius: 16px;
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 32px;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stage-anim-frame {
+      width: 100%;
+      height: 260px;
+      background: rgba(10, 13, 20, 0.7);
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stage-anim-frame svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .pulse-glow-ring {
+      animation: pulseGlow 3s infinite ease-in-out;
+    }
+
+    @keyframes pulseGlow {
+      0% { opacity: 0.3; transform: scale(0.98); }
+      50% { opacity: 0.8; transform: scale(1.02); }
+      100% { opacity: 0.3; transform: scale(0.98); }
+    }
+
+    .flow-line {
+      stroke-dasharray: 8 6;
+      animation: dashMove 2s linear infinite;
+    }
+
+    @keyframes dashMove {
+      from { stroke-dashoffset: 28; }
+      to { stroke-dashoffset: 0; }
+    }
+
+    .stage-info-content h3 {
+      font-family: var(--font-heading);
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .stage-info-content p {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .gatecheck-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .gatecheck-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--text-main);
+    }
+
+    .gatecheck-icon {
+      color: var(--accent-green);
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .stage-financial-badge {
+      background: rgba(0, 229, 255, 0.08);
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .hero-grid, .calc-container, .stage-display-card {
+        grid-template-columns: 1fr;
+      }
+      .grid-3, .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .stepper-nav {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 32px; }
+      .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .stepper-nav {
+        grid-template-columns: 1fr;
+      }
+      .stepper-nav::before, .stepper-progress-fill {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-badge">CNC 12-AXIS</span>
+        <div class="brand-title">
+          CAMLESS FORMER
+          <span>Bangalore Setup Guide</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#machine-specs">Machine Tech</a></li>
+        <li><a href="#capabilities">Products (0.5–4.0mm)</a></li>
+        <li><a href="#factory-setup">Factory & Power</a></li>
+        <li><a href="#bangalore-clusters">Bangalore Clusters</a></li>
+        <li><a href="#cost-calculator">CapEx & ROI (₹28L–₹44L)</a></li>
+        <li><a href="#roadmap">90-Day Setup</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#cost-calculator" class="btn-quick-calc">Launch ROI Calc</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section Quick Navigator Strip -->
+  <div class="section-nav-strip">
+    <div class="container">
+      <div class="nav-tabs">
+        <button class="tab-btn active" onclick="scrollToSection('hero')">Overview</button>
+        <button class="tab-btn" onclick="scrollToSection('axis-interactive')">12-Axis Interactive</button>
+        <button class="tab-btn" onclick="scrollToSection('machine-specs')">Models (YLSK/Solarman/CNC-1280)</button>
+        <button class="tab-btn" onclick="scrollToSection('capabilities')">Spring Forms (0.5–4mm)</button>
+        <button class="tab-btn" onclick="scrollToSection('critical-factors')" style="color: var(--accent-orange); font-weight:700;">★ Key Business Factors</button>
+        <button class="tab-btn" onclick="scrollToSection('factory-setup')">BESCOM & Infrastructure</button>
+        <button class="tab-btn" onclick="scrollToSection('bangalore-clusters')">Peenya vs Narasapura vs Hosur</button>
+        <button class="tab-btn" onclick="scrollToSection('cost-calculator')">CapEx (₹28L-₹44L) & ROI</button>
+        <button class="tab-btn" onclick="scrollToSection('vendors')">Bangalore Ecosystem</button>
+        <button class="tab-btn" onclick="scrollToSection('roadmap')" style="color: var(--primary); font-weight:700;">▶ Animated Roadmap</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge-pill">
+          <span class="pulse-dot"></span>
+          HIGH-PRECISION WIRE FORMING & SPRING MANUFACTURING
+        </div>
+        <h1>12-Axis Camless CNC Former <span class="highlight">Setup in Bangalore</span></h1>
+        <p>
+          Master engineering and business guide for commissioning a 12-Axis Camless CNC Spring & 3D Wire Forming Machine in the Greater Bangalore and Hosur industrial manufacturing corridors. Capable of high-speed fabrication across wire diameters <strong>0.5 mm to 4.0 mm</strong>.
+        </p>
+
+        <div class="specs-chips">
+          <div class="spec-chip price">
+            <span class="label">Machine Investment</span>
+            <span class="val">₹28.0 Lakhs – ₹44.0 Lakhs</span>
+          </div>
+          <div class="spec-chip">
+            <span class="label">Wire Working Range</span>
+            <span class="val">Ø 0.5 mm – 4.0 mm</span>
+          </div>
+          <div class="spec-chip">
+            <span class="label">Control Kinematics</span>
+            <span class="val">12 Independent Servos</span>
+          </div>
+          <div class="spec-chip">
+            <span class="label">Setup Time</span>
+            <span class="val">75% Faster Than Cam</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#axis-interactive" class="btn-primary">
+            Explore 12-Axis Head Simulation
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+          <a href="#bangalore-clusters" class="btn-secondary">
+            Find Bangalore Industrial Sheds
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Interactive Visual Card -->
+      <div class="hero-visual-card" id="axis-interactive">
+        <div class="machine-schematic-header">
+          <div class="schematic-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="2"/><path d="M12 6v6l4 2" stroke-width="2"/></svg>
+            RADIAL CAMLESS SLIDE SYSTEM
+          </div>
+          <span class="tag-badge tag-cyan">Click Any Axis Below</span>
+        </div>
+
+        <div class="cam-stage">
+          <!-- Interactive 12-Axis Radial SVG Representation -->
+          <svg class="radial-head-svg" viewBox="0 0 400 400" id="radialSvg">
+            <!-- Center Quill & Wire feed housing -->
+            <circle cx="200" cy="200" r="170" fill="none" stroke="#243047" stroke-width="1.5" stroke-dasharray="4 4" />
+            <circle cx="200" cy="200" r="130" fill="none" stroke="#1d2638" stroke-width="2" />
+            <circle cx="200" cy="200" r="60" fill="#131926" stroke="#00e5ff" stroke-width="2.5" />
+            <circle cx="200" cy="200" r="28" fill="#1b2438" stroke="#ff9100" stroke-width="2" />
+            
+            <!-- Center Wire Exit Point -->
+            <circle cx="200" cy="200" r="9" fill="#00e5ff" class="axis-node" onclick="selectAxis('axis-feed', 'Axis 1 & 2: Wire Feed & Quill Rotation', 'Feeds 0.5-4.0mm wire continuously via precision ground hardened feed rollers. Axis 2 rotates the center quill 360° to eliminate wire twisting during 3D bends.')" />
+            <text x="200" y="204" font-size="8" fill="#000" font-weight="bold" text-anchor="middle">WIRE</text>
+
+            <!-- 8 Radial Tool Slides (Slides 1 to 8, at 45 degree intervals) -->
+            <!-- Slide 1: 0 deg (Top) -->
+            <g class="axis-node" onclick="selectAxis('slide-1', 'Axis 3: Slide 1 (12 O\'Clock)', 'Direct servo ball screw drive (1.5kW - 2.0kW). Typically mounted with heavy-duty guillotine shear blade for cutting wire cleanly without burrs.')">
+              <line x1="200" y1="65" x2="200" y2="135" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="185" y="45" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="200" y="64" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S1</text>
+              <circle cx="200" cy="140" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Slide 2: 45 deg -->
+            <g class="axis-node" onclick="selectAxis('slide-2', 'Axis 4: Slide 2 (1:30 O\'Clock)', 'Independent servo slide. Used for secondary bending pin, forming roller, or auxiliary wire deflection tooling.')">
+              <line x1="295" y1="105" x2="246" y2="154" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="280" y="90" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="295" y="109" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S2</text>
+              <circle cx="243" cy="157" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Slide 3: 90 deg (Right) -->
+            <g class="axis-node" onclick="selectAxis('slide-3', 'Axis 5: Slide 3 (3 O\'Clock)', 'Right horizontal forming slide. Excellent for pitch control and coiling pin engagement during compression spring production.')">
+              <line x1="335" y1="200" x2="265" y2="200" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="325" y="185" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="340" y="204" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S3</text>
+              <circle cx="260" cy="200" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Slide 4: 135 deg -->
+            <g class="axis-node" onclick="selectAxis('slide-4', 'Axis 6: Slide 4 (4:30 O\'Clock)', 'Bottom-right radial axis. Used for torsion spring leg folding and back-bending operations.')">
+              <line x1="295" y1="295" x2="246" y2="246" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="280" y="280" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="295" y="299" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S4</text>
+              <circle cx="243" cy="243" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Slide 5: 180 deg (Bottom) -->
+            <g class="axis-node" onclick="selectAxis('slide-5', 'Axis 7: Slide 5 (6 O\'Clock)', 'Bottom forming arm. Often fitted with coiling pin or hydraulic/servo mandrel support for heavy 4.0mm wire forms.')">
+              <line x1="200" y1="335" x2="200" y2="265" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="185" y="325" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="200" y="344" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S5</text>
+              <circle cx="200" cy="260" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Slide 6: 225 deg -->
+            <g class="axis-node" onclick="selectAxis('slide-6', 'Axis 8: Slide 6 (7:30 O\'Clock)', 'Bottom-left forming arm. Accommodates motorized spinner or double-torsion intermediate bend hook.')">
+              <line x1="105" y1="295" x2="154" y2="246" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="90" y="280" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="105" y="299" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S6</text>
+              <circle cx="157" cy="243" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Slide 7: 270 deg (Left) -->
+            <g class="axis-node" onclick="selectAxis('slide-7', 'Axis 9: Slide 7 (9 O\'Clock)', 'Left horizontal forming slide. Primary bending pin for left-hand coils, hook bending for extension springs.')">
+              <line x1="65" y1="200" x2="135" y2="200" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="45" y="185" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="60" y="204" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S7</text>
+              <circle cx="140" cy="200" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Slide 8: 315 deg -->
+            <g class="axis-node" onclick="selectAxis('slide-8', 'Axis 10: Slide 8 (10:30 O\'Clock)', 'Top-left arm. Secondary cutoff or touch sensor station for in-line closed-loop angle error compensation.')">
+              <line x1="105" y1="105" x2="154" y2="154" stroke="#3b4d6e" stroke-width="8" stroke-linecap="round" />
+              <rect x="90" y="90" width="30" height="30" rx="6" fill="#1a2336" stroke="#00e5ff" stroke-width="1.5" />
+              <text x="105" y="109" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">S8</text>
+              <circle cx="157" cy="157" r="6" fill="#00e5ff" class="slide-handle" />
+            </g>
+
+            <!-- Auxiliary Spinners (Axis 11 & Axis 12) -->
+            <g class="axis-node" onclick="selectAxis('spinner-1', 'Axis 11 & 12: Servo Spinners (Rotary Wire Benders)', 'High-speed 360° continuous rotary heads mounted on tool slides. Allows 3D orbital bends, complex hooks without indexing the entire wire spool.')">
+              <circle cx="270" cy="70" r="14" fill="#ff9100" stroke="#fff" stroke-width="1.5" />
+              <text x="270" y="74" font-size="9" fill="#000" font-weight="bold" text-anchor="middle">SP1</text>
+              <circle cx="130" cy="70" r="14" fill="#ff9100" stroke="#fff" stroke-width="1.5" />
+              <text x="130" y="74" font-size="9" fill="#000" font-weight="bold" text-anchor="middle">SP2</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="inspector-panel" id="axisInspector">
+          <div class="ins-title">
+            <span id="inspectTitle">Axis 1 & 2: Wire Feed & Quill Rotation</span>
+            <span class="tag-badge tag-green" id="inspectServo">Yaskawa/Sanyo 4.5kW + 2.7kW</span>
+          </div>
+          <div class="ins-desc" id="inspectDesc">
+            Click on any slide arm (S1-S8), center wire exit, or spinners (SP1/SP2) above to inspect kinematics, servo pairing, tooling selection, and Bangalore wire forming applications.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Machine Models & Technical Specs Section -->
+  <section id="machine-specs">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">MACHINE SPECIFICATIONS COMPARISON</span>
+        <h2>Top 12-Axis Camless CNC Formers Evaluated</h2>
+        <p>
+          Comparative engineering breakdown of leading machines in the <strong>₹28L to ₹44L</strong> landed price bracket: Dongguan YLSK-1240, Solarman CMM-12-236R, and CNC-1280 Heavy Duty.
+        </p>
+      </div>
+
+      <div class="comparison-table-wrapper">
+        <table class="tech-table">
+          <thead>
+            <tr>
+              <th>Feature / Parameter</th>
+              <th>YLSK-1240 (Dongguan YLSK)</th>
+              <th>Solarman CMM-12-236R</th>
+              <th>CNC-1280 / WNJ-1280</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Target Wire Diameter</strong></td>
+              <td><span class="tag-badge tag-green">Ø 1.2 mm – 4.0 mm</span> (0.8mm opt)</td>
+              <td><span class="tag-badge tag-green">Ø 0.8 mm – 3.6 mm / 4.0 mm</span></td>
+              <td><span class="tag-badge tag-green">Ø 1.5 mm – 4.5 mm / 8.0 mm</span></td>
+            </tr>
+            <tr>
+              <td><strong>Number of Servo Axes</strong></td>
+              <td>12 to 14 Axes (8 Slides + Feed + Quill + Spinner + Cutter)</td>
+              <td>12 Axes (Full Camless Rotary Wire + Quill)</td>
+              <td>12 to 16 Axes (Heavy Duty Rigidity)</td>
+            </tr>
+            <tr>
+              <td><strong>CNC Controller & OS</strong></td>
+              <td>Taiwan Baoyuan / Advantech Industrial PC + Windows GUI</td>
+              <td>Kaifu CNC / Qianye Custom 12-Axis Motion System</td>
+              <td>Delta 15-inch Touch / Inovance Motion Controller</td>
+            </tr>
+            <tr>
+              <td><strong>Servo Motors & Drivers</strong></td>
+              <td>Yaskawa Sigma-7 / Sanyo Denki (Japan) or Inovance</td>
+              <td>Yaskawa Sigma-5 / Sigma-7 Series</td>
+              <td>Delta / Inovance High-Torque AC Servos</td>
+            </tr>
+            <tr>
+              <td><strong>Wire Feed Speed</strong></td>
+              <td>Max 100 – 110 meters / min</td>
+              <td>Max 90 – 120 meters / min</td>
+              <td>Max 75 – 90 meters / min (High Torque)</td>
+            </tr>
+            <tr>
+              <td><strong>Total Connected Load</strong></td>
+              <td>18.5 kW – 24.0 kW (25 HP – 32 HP)</td>
+              <td>16.5 kW – 22.0 kW (22 HP – 30 HP)</td>
+              <td>22.0 kW – 30.0 kW (30 HP – 40 HP)</td>
+            </tr>
+            <tr>
+              <td><strong>Estimated Landed Cost (Bangalore)</strong></td>
+              <td><span class="tag-badge tag-cyan">₹32.5L – ₹38.0L</span> (Incl. Customs + GST)</td>
+              <td><span class="tag-badge tag-cyan">₹28.0L – ₹34.5L</span> (Best Value)</td>
+              <td><span class="tag-badge tag-cyan">₹37.0L – ₹44.0L</span> (Heavy Duty)</td>
+            </tr>
+            <tr>
+              <td><strong>Key Ideal Applications</strong></td>
+              <td>Automotive suspension rebound springs, seat wire forms, battery links</td>
+              <td>Precision extension/torsion springs, electrical switchgear contacts</td>
+              <td>Heavy agricultural tines, automotive exhaust hangers, heavy clamps</td>
+            </tr>
+            <tr>
+              <td><strong>Decoiler Included</strong></td>
+              <td>1000 kg Motorized Inverter Decoiler</td>
+              <td>500 kg – 800 kg Automatic Decoiler</td>
+              <td>1500 kg Heavy-Duty Hydraulic Decoiler</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Why Camless vs Mechanical Cam -->
+      <div class="grid-3" style="margin-top: 36px;">
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Zero Cam Setup Time</h3>
+          <p>
+            Traditional cam formers require 4 to 8 hours to grind, position, and tune physical cam lobes. The 12-axis camless machine setups take only <strong>25 to 45 minutes</strong> via computerized MPG teach mode and program recall.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📐</div>
+          <h3>Simultaneous 3D Kinematics</h3>
+          <p>
+            Each radial slide operates independently with dedicated ball screws. Free synchronization allows extreme geometric freedom: asymmetric double-torsion legs, intricate English & German hooks, and automotive seat wires.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎯</div>
+          <h3>Probe Closed-Loop QC</h3>
+          <p>
+            High-speed touch probes verify initial bend angles. If springback occurs (common with batch-to-batch wire tensile variation in India), the CNC automatically offsets the servo arm angle in real-time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spring Capabilities & Products Range -->
+  <section id="capabilities" style="background: rgba(18, 23, 34, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">MANUFACTURING SCOPE (WIRE Ø 0.5MM – 4.0MM)</span>
+        <h2>Spring Types & 3D Wire Forms Produced</h2>
+        <p>
+          High-yield spring categories you can supply to Bangalore's thriving automotive (Tata, Mahindra, TVS, Toyota), aerospace, electrical (Schneider, ABB), and consumer electronics industries.
+        </p>
+      </div>
+
+      <div class="product-cards">
+        <!-- Compression -->
+        <div class="spring-type-card">
+          <div>
+            <div class="icon-box">
+              <svg width="180" height="90" viewBox="0 0 180 90" fill="none">
+                <path d="M 15 45 Q 25 15 35 45 T 55 45 T 75 45 T 95 45 T 115 45 T 135 45 T 155 45 T 165 45" stroke="#00e5ff" stroke-width="4" stroke-linecap="round"/>
+                <line x1="12" y1="20" x2="12" y2="70" stroke="#ff9100" stroke-width="2" stroke-dasharray="2 2"/>
+                <line x1="168" y1="20" x2="168" y2="70" stroke="#ff9100" stroke-width="2" stroke-dasharray="2 2"/>
+              </svg>
+            </div>
+            <h3>Compression Springs</h3>
+            <p>Conical, barrel, hourglass, variable pitch, and straight compression springs with closed & ground ends.</p>
+            <ul style="margin: 12px 0 0 18px; color: var(--text-muted); font-size: 13px;">
+              <li><strong>Wire:</strong> Ø 0.5 to 4.0 mm Spring Steel / SS304</li>
+              <li><strong>Speed:</strong> 80 – 160 pcs/min</li>
+              <li><strong>Target:</strong> Valves, injectors, dampers, pumps</li>
+            </ul>
+          </div>
+          <div style="margin-top: 16px;">
+            <span class="tag-badge tag-cyan">High Volume Jobwork</span>
+          </div>
+        </div>
+
+        <!-- Extension -->
+        <div class="spring-type-card">
+          <div>
+            <div class="icon-box">
+              <svg width="180" height="90" viewBox="0 0 180 90" fill="none">
+                <!-- German hook left -->
+                <path d="M 20 60 C 10 60 10 30 25 30 C 35 30 35 45 45 45" stroke="#00e5ff" stroke-width="3.5" fill="none"/>
+                <!-- Coils -->
+                <path d="M 45 45 Q 52 25 60 45 T 75 45 T 90 45 T 105 45 T 120 45 T 135 45" stroke="#00e5ff" stroke-width="3.5" fill="none"/>
+                <!-- German hook right -->
+                <path d="M 135 45 C 145 45 145 30 155 30 C 170 30 170 60 160 60" stroke="#00e5ff" stroke-width="3.5" fill="none"/>
+              </svg>
+            </div>
+            <h3>Extension Springs</h3>
+            <p>English loop, German crossover hook, extended side loop, and swivel hooks formed automatically without secondary looping machines.</p>
+            <ul style="margin: 12px 0 0 18px; color: var(--text-muted); font-size: 13px;">
+              <li><strong>Wire:</strong> Ø 0.8 to 3.5 mm Music wire / Oil tempered</li>
+              <li><strong>Speed:</strong> 40 – 85 pcs/min</li>
+              <li><strong>Target:</strong> Automotive brakes, garage doors, clutches</li>
+            </ul>
+          </div>
+          <div style="margin-top: 16px;">
+            <span class="tag-badge tag-green">Zero Secondary Hooking</span>
+          </div>
+        </div>
+
+        <!-- Double Torsion -->
+        <div class="spring-type-card">
+          <div>
+            <div class="icon-box">
+              <svg width="180" height="90" viewBox="0 0 180 90" fill="none">
+                <!-- Left body -->
+                <path d="M 20 20 L 40 45 Q 48 30 55 45 T 70 45" stroke="#00e5ff" stroke-width="3.5" fill="none"/>
+                <!-- Center bridge loop -->
+                <path d="M 70 45 C 80 45 80 75 90 75 C 100 75 100 45 110 45" stroke="#ff9100" stroke-width="3.5" fill="none"/>
+                <!-- Right body -->
+                <path d="M 110 45 Q 118 30 125 45 T 140 45 L 160 20" stroke="#00e5ff" stroke-width="3.5" fill="none"/>
+              </svg>
+            </div>
+            <h3>Double-Torsion Springs</h3>
+            <p>Symmetric & asymmetric dual coil bodies connected by a central bridge with custom bend angles on both leg extremities.</p>
+            <ul style="margin: 12px 0 0 18px; color: var(--text-muted); font-size: 13px;">
+              <li><strong>Wire:</strong> Ø 0.6 to 3.2 mm Spring steel</li>
+              <li><strong>Speed:</strong> 35 – 70 pcs/min</li>
+              <li><strong>Target:</strong> Tailgate hinges, throttle pedals, clipboards</li>
+            </ul>
+          </div>
+          <div style="margin-top: 16px;">
+            <span class="tag-badge tag-orange">Premium Margin (40%+)</span>
+          </div>
+        </div>
+
+        <!-- 3D Wire Forms -->
+        <div class="spring-type-card">
+          <div>
+            <div class="icon-box">
+              <svg width="180" height="90" viewBox="0 0 180 90" fill="none">
+                <path d="M 20 70 L 45 25 L 90 25 L 110 65 L 140 65 L 155 35 L 170 35" stroke="#00e5ff" stroke-width="3.5" stroke-linejoin="round" fill="none"/>
+                <circle cx="90" cy="25" r="4" fill="#ff9100"/>
+                <circle cx="110" cy="65" r="4" fill="#ff9100"/>
+              </svg>
+            </div>
+            <h3>Complex 3D Wire Forms</h3>
+            <p>Non-coiled geometric wire structures with multi-planar spatial bends made possible by quill and wire rotary axes.</p>
+            <ul style="margin: 12px 0 0 18px; color: var(--text-muted); font-size: 13px;">
+              <li><strong>Wire:</strong> Ø 1.0 to 4.0 mm SS304 / Hard drawn steel</li>
+              <li><strong>Speed:</strong> 25 – 60 pcs/min</li>
+              <li><strong>Target:</strong> Exhaust brackets, car seat frames, textile links</li>
+            </ul>
+          </div>
+          <div style="margin-top: 16px;">
+            <span class="tag-badge tag-cyan">Custom Auto Tier-1 Contracts</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Critical Business Factors & Decision Radar -->
+  <section id="critical-factors" style="background: rgba(18, 23, 34, 0.6);">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">INVESTOR & PROMOTER DECISION MATRIX</span>
+        <h2>Critical Factors to Consider for This Business</h2>
+        <p>
+          Spring and wire-forming offers high gross margins (30%–45%), but profitability in the Bangalore-Hosur industrial cluster hinges on managing these six fundamental financial, metallurgical, and market dynamics:
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Factor 1: Working Capital Crunch -->
+        <div class="factor-card">
+          <div>
+            <div class="factor-header">
+              <span class="card-icon" style="margin-bottom:0;">💰</span>
+              <span class="factor-severity sev-critical">CRITICAL RISK</span>
+            </div>
+            <h3>Working Capital Mismatch (Credit Cycles)</h3>
+            <p>
+              <strong>The Reality:</strong> Steel wire manufacturers (Tata Steel, Bansal, Usha Martin) or Peenya stockists demand advance payment or maximum 15-day credit. Meanwhile, automotive OEMs (Honda Narasapura, TVS Hosur, Bosch) operate on strict <strong>60 to 90 days credit terms</strong>.
+            </p>
+          </div>
+          <div class="factor-mitigation">
+            <strong>Key Mitigation Strategy</strong>
+            Maintain a dedicated liquid working capital buffer of <strong>₹12L – ₹18L</strong> (or obtain a bank Cash Credit / CC limit) exclusively for 2–3 months of raw material inventory and monthly overheads.
+          </div>
+        </div>
+
+        <!-- Factor 2: Raw Material Scrap Rate -->
+        <div class="factor-card">
+          <div>
+            <div class="factor-header">
+              <span class="card-icon" style="margin-bottom:0;">📉</span>
+              <span class="factor-severity sev-critical">PROFIT SENSITIVE</span>
+            </div>
+            <h3>Raw Material Scrap Rate (55–65% Cost Share)</h3>
+            <p>
+              <strong>The Reality:</strong> High-tensile spring steel wire accounts for nearly 60% of total unit manufacturing cost. On mechanical cam machines, trial-and-error setup wastes 50–150 test coils per batch. If scrap hits 4–6%, entire net profit is erased.
+            </p>
+          </div>
+          <div class="factor-mitigation">
+            <strong>Key Mitigation Strategy</strong>
+            The 12-axis camless former computerizes program recall and MPG teach-in mode, locking dimensional tolerances in <strong>&lt; 5 trial pieces</strong>. Keep total plant scrap strictly below <strong>1.2%</strong>.
+          </div>
+        </div>
+
+        <!-- Factor 3: Automotive PPAP & Quality Audits -->
+        <div class="factor-card">
+          <div>
+            <div class="factor-header">
+              <span class="card-icon" style="margin-bottom:0;">📋</span>
+              <span class="factor-severity sev-high">MARKET ENTRY BARRIER</span>
+            </div>
+            <h3>Automotive PPAP Level 3 & Quality Compliance</h3>
+            <p>
+              <strong>The Reality:</strong> Tier-1 auto OEMs will not accept delivery without Production Part Approval Process (PPAP). They audit process capability (<strong>CPK &gt; 1.67</strong>), load-deflection hysteresis curves, and 720-hour salt spray corrosion testing.
+            </p>
+          </div>
+          <div class="factor-mitigation">
+            <strong>Key Mitigation Strategy</strong>
+            Budget upfront for an in-house Digital Dual-Load Cell Spring Tester (compression & extension) and a 2D Optical Profile Projector (VMS) to self-certify inspection reports before customer audits.
+          </div>
+        </div>
+
+        <!-- Factor 4: Mandatory In-Line Stress Relieving -->
+        <div class="factor-card">
+          <div>
+            <div class="factor-header">
+              <span class="card-icon" style="margin-bottom:0;">🔥</span>
+              <span class="factor-severity sev-high">METALLURGICAL NECESSITY</span>
+            </div>
+            <h3>Residual Stress Relieving (Tempering Dwell)</h3>
+            <p>
+              <strong>The Reality:</strong> Cold-drawn wire undergoes massive localized dislocation during rapid coiling. Unrelieved springs will suffer permanent set (loss of free length) within 5,000 load cycles in vehicle service, leading to OEM rejections and line-stoppage penalties.
+            </p>
+          </div>
+          <div class="factor-mitigation">
+            <strong>Key Mitigation Strategy</strong>
+            Integrate a continuous mesh-belt electric conveyor furnace (250°C–380°C) directly under the former discharge chute for zero-handling, instantaneous stress-relief tempering.
+          </div>
+        </div>
+
+        <!-- Factor 5: Carbide Tooling Wear & Spares -->
+        <div class="factor-card">
+          <div>
+            <div class="factor-header">
+              <span class="card-icon" style="margin-bottom:0;">🛠️</span>
+              <span class="factor-severity sev-vital">OPERATIONAL VITAL</span>
+            </div>
+            <h3>Carbide Tooling Maintenance & Spares</h3>
+            <p>
+              <strong>The Reality:</strong> Hardened music wire (SWPB) and oil-tempered silicon chrome wire (OT-SiCr) cause abrasive wear on feed roller V/U grooves, quill lips, and cutoff blades. Worn wire feed rollers slip, producing inconsistent spring free lengths.
+            </p>
+          </div>
+          <div class="factor-mitigation">
+            <strong>Key Mitigation Strategy</strong>
+            Use only Sub-Micron Tungsten Carbide (YG15 / YG20 grade) tooling. Establish rapid-regrind contracts with precision toolrooms in Peenya 3rd Phase to re-lap cutters and quills within 24 hours.
+          </div>
+        </div>
+
+        <!-- Factor 6: Clean Power & Servo Protection -->
+        <div class="factor-card">
+          <div>
+            <div class="factor-header">
+              <span class="card-icon" style="margin-bottom:0;">⚡</span>
+              <span class="factor-severity sev-vital">INFRASTRUCTURE VITAL</span>
+            </div>
+            <h3>Grid Power Quality & Voltage Swings</h3>
+            <p>
+              <strong>The Reality:</strong> Bangalore industrial corridors (Peenya, Narasapura, Bommasandra) experience seasonal grid surges and brownouts (360V to 465V). Voltage spikes can blow expensive Japanese Yaskawa AC servo drive amplifier boards.
+            </p>
+          </div>
+          <div class="factor-mitigation">
+            <strong>Key Mitigation Strategy</strong>
+            Mandatory installation of a 35–40 kVA Copper-wound Balanced Servo Voltage Stabilizer + an dedicated 5 kVA Online Isolation UPS for the CNC Industrial PC controller.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Factory Infrastructure, BESCOM Power & Facilities -->
+  <section id="factory-setup">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">PHYSICAL PLANT & ELECTRICAL INFRASTRUCTURE</span>
+        <h2>Factory Layout & Bangalore Utility Requirements</h2>
+        <p>
+          Everything required inside your factory shed before the container arrives at Bangalore ICD or your facility gate.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>BESCOM Industrial Power Connection</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; margin-top: 14px;">
+            <li><strong>Sanctioned Load:</strong> Minimum <strong>25 HP (18.6 kW)</strong>, recommended <strong>35 HP (26 kW)</strong> to power the former + continuous tempering oven + compressor together.</li>
+            <li><strong>BESCOM Tariff Category:</strong> LT-5 (Industrial Power). Commercial tariff ~₹7.20 to ₹8.10 per kWh depending on slab and time-of-day (TOD) metering.</li>
+            <li><strong>Servo Stabilizer:</strong> 35 – 40 kVA Copper-wound, three-phase oil/air-cooled stabilizer (415V ± 1%). Essential in Bangalore industrial feeders prone to voltage fluctuations (360V - 460V spikes).</li>
+            <li><strong>Online UPS for CNC:</strong> 5 kVA online UPS with 15-minute battery bank dedicated exclusively to CNC controller IPC, preventing drive fault code corruption during power switchovers.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">💨</div>
+          <h3>Pneumatics & Compressed Air System</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; margin-top: 14px;">
+            <li><strong>Air Compressor:</strong> 5.0 HP or 7.5 HP Rotary Screw Air Compressor (e.g., Elgi Equipments, Chicago Pneumatic, or Atlas Copco available in Peenya).</li>
+            <li><strong>Pressure Rating:</strong> 7.0 to 8.5 Bar constant working pressure for pneumatic wire clamps, slide boosters, and auto cutoffs.</li>
+            <li><strong>Air Treatment:</strong> Refrigerated Air Dryer + 3-Stage Pre/Post Filters (0.01 micron particle & oil removal). Oil/moisture in air will ruin sensitive pneumatic solenoid valves.</li>
+            <li><strong>Air Receiver Tank:</strong> 300 to 500 Liters vertical MS receiver tank with auto-drain valve.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🏗️</div>
+          <h3>Floor Loading & Shed Dimensions</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; margin-top: 14px;">
+            <li><strong>Minimum Shed Area:</strong> 1,200 to 1,800 sq. ft. clear floor space (allows machine, decoiler clearance, tempering furnace line, inspection lab, and raw material coil storage).</li>
+            <li><strong>Flooring Spec:</strong> 150 mm to 200 mm reinforced concrete (M25 grade) with anti-dust epoxy coating. Machine weight is approx 4,500 – 6,200 kg.</li>
+            <li><strong>Vibration Dampening:</strong> Heavy-duty leveling anti-vibration mount pads (supplied with machine or Dynemech make from Bangalore).</li>
+            <li><strong>Ceiling Height:</strong> Minimum 12 – 14 ft. clearance for loading 1-ton wire coils onto the vertical uncoiler turntable.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🔥</div>
+          <h3>Auxiliary Post-Processing (Stress Relieving)</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; margin-top: 14px;">
+            <li><strong>Stress Relieving Requirement:</strong> Cold-formed spring steel wire contains high residual stresses. Immediately after coiling, springs must undergo stress relieving at <strong>250°C to 380°C</strong> for 20-30 mins.</li>
+            <li><strong>Continuous Conveyor Oven:</strong> In-line mesh-belt electric furnace (4.5 to 7.5 kW) placed right at the spring drop chute — springs drop directly onto belt. (Cost: ₹4.5L - ₹7.0L).</li>
+            <li><strong>Alternative Batch Oven:</strong> Forced air circulation box tempering oven with digital PID controller for lower initial CapEx (₹1.2L - ₹2.0L).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bangalore & Surrounding Industrial Clusters Guide -->
+  <section id="bangalore-clusters" style="background: rgba(18, 23, 34, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">LOCATION STRATEGY IN & AROUND BANGALORE</span>
+        <h2>Where to Set Up: Industrial Hub Comparison</h2>
+        <p>
+          Selecting the ideal industrial cluster determines your rental overhead, power reliability, supply chain logistics, and proximity to automotive Tier-1 OEMs.
+        </p>
+      </div>
+
+      <div class="cluster-selector">
+        <button class="cluster-tab active" onclick="showCluster('peenya')">Peenya Industrial Area (Bangalore West)</button>
+        <button class="cluster-tab" onclick="showCluster('narasapura')">Narasapura Industrial Area (Kolar / NH 75)</button>
+        <button class="cluster-tab" onclick="showCluster('bommasandra')">Bommasandra & Jigani (Bangalore South)</button>
+        <button class="cluster-tab" onclick="showCluster('dabaspet')">Dabaspet / Nelamangala (Tumkur Rd)</button>
+        <button class="cluster-tab" onclick="showCluster('hosur')">Hosur SIPCOT (TN Border - 35km)</button>
+        <button class="cluster-tab" onclick="showCluster('bidadi')">Bidadi (Mysore Road)</button>
+      </div>
+
+      <div class="cluster-detail-box" id="clusterContent">
+        <!-- Dynamic Cluster content rendered via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive CapEx and ROI Financial Calculator -->
+  <section id="cost-calculator">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">FINANCIAL MODELING & INVESTMENT PROJECTION</span>
+        <h2>CapEx Breakdown & Payback ROI Calculator</h2>
+        <p>
+          Analyze your complete project outlay (Machine ₹28L–₹44L, landing duty, auxiliary gear, working capital) and calculate monthly net profits and break-even payback period based on your wire tonnage.
+        </p>
+      </div>
+
+      <div class="calc-container">
+        <!-- Sliders & Inputs -->
+        <div class="calc-inputs">
+          <h3 style="font-family: var(--font-heading); color: #fff;">Project Parameters</h3>
+
+          <div class="input-group">
+            <div class="input-label-row">
+              <span>Base Machine Cost (Landed)</span>
+              <span class="cur-val" id="dispMachineCost">₹34.0 Lakhs</span>
+            </div>
+            <input type="range" id="sliderMachineCost" min="28" max="44" step="0.5" value="34" oninput="updateCalculator()">
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim);">
+              <span>₹28L (Solarman / Economy)</span>
+              <span>₹36L (YLSK-1240)</span>
+              <span>₹44L (CNC-1280 Heavy)</span>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-label-row">
+              <span>Monthly Wire Production Volume</span>
+              <span class="cur-val" id="dispTonnage">4.0 Metric Tons</span>
+            </div>
+            <input type="range" id="sliderTonnage" min="1.0" max="12.0" step="0.5" value="4.0" oninput="updateCalculator()">
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim);">
+              <span>1 Ton (Single shift jobwork)</span>
+              <span>4 Tons (Healthy setup)</span>
+              <span>12 Tons (2 Shifts continuous)</span>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-label-row">
+              <span>Raw Material Cost / kg (Spring Steel / SS304)</span>
+              <span class="cur-val" id="dispWireCost">₹110 / kg</span>
+            </div>
+            <input type="range" id="sliderWireCost" min="85" max="220" step="5" value="110" oninput="updateCalculator()">
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim);">
+              <span>₹85 (Carbon Steel IS 4454)</span>
+              <span>₹110 (Patented High Tensile)</span>
+              <span>₹220 (SS302 / SS304)</span>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-label-row">
+              <span>Finished Spring Selling Price / kg (Avg)</span>
+              <span class="cur-val" id="dispSalePrice">₹240 / kg</span>
+            </div>
+            <input type="range" id="sliderSalePrice" min="160" max="420" step="10" value="240" oninput="updateCalculator()">
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim);">
+              <span>₹160 (Standard bulk)</span>
+              <span>₹240 (Automotive / Precision)</span>
+              <span>₹420+ (3D Complex / SS)</span>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-label-row">
+              <span>Monthly Fixed Overheads (Rent, BESCOM, 2 Technicians)</span>
+              <span class="cur-val" id="dispOverhead">₹1,45,000 / mo</span>
+            </div>
+            <input type="range" id="sliderOverhead" min="80000" max="300000" step="5000" value="145000" oninput="updateCalculator()">
+          </div>
+        </div>
+
+        <!-- Output Summary Card -->
+        <div class="calc-summary-card">
+          <div>
+            <div class="metric-hero">
+              <div class="label">Estimated Net Profit / Month</div>
+              <div class="big-number" id="dispNetProfit">₹3,45,000</div>
+              <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">After raw materials, power, rent & labor</div>
+            </div>
+
+            <div class="metric-row">
+              <span class="m-label">Total Capital Outlay (CapEx)</span>
+              <span class="m-val" id="dispTotalCapex">₹44.8 Lakhs</span>
+            </div>
+            <div class="metric-row">
+              <span class="m-label">Monthly Gross Revenue</span>
+              <span class="m-val" id="dispMonthlyRev">₹9.60 Lakhs</span>
+            </div>
+            <div class="metric-row">
+              <span class="m-label">Monthly Raw Material Cost</span>
+              <span class="m-val" id="dispMonthlyRM">₹4.40 Lakhs</span>
+            </div>
+            <div class="metric-row">
+              <span class="m-label">Gross Margin per kg</span>
+              <span class="m-val" id="dispMarginKg" style="color: var(--primary);">₹130 / kg</span>
+            </div>
+            <div class="metric-row">
+              <span class="m-label">Estimated Payback Period</span>
+              <span class="m-val" id="dispPayback" style="color: var(--accent-orange); font-size: 16px;">13.0 Months</span>
+            </div>
+          </div>
+
+          <div style="background: rgba(0, 0, 0, 0.3); border-radius: 10px; padding: 12px; margin-top: 18px; font-size: 12px; color: var(--text-muted);">
+            <strong style="color: var(--primary);">CapEx Breakdown Includes:</strong> Machine base price, Sea freight & Chennai port customs handling, 1000kg decoiler, 5HP screw compressor with dryer, 35kVA stabilizer, batch tempering oven, and carbide tooling starter pack.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bangalore Ecosystem Directory: Raw Material, Tooling & Testing -->
+  <section id="vendors">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">LOCAL BANGALORE INDUSTRIAL ECOSYSTEM</span>
+        <h2>Raw Material Suppliers, Heat Treaters & Labs</h2>
+        <p>
+          Established suppliers and partners in Bangalore to source wire coils, tungsten carbide tooling, continuous furnaces, and NABL testing certification.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-icon">🧲</div>
+          <h3>Spring Wire Stockists</h3>
+          <p style="margin-bottom: 12px;"><strong>Local hubs:</strong> Peenya 2nd Stage, S.P. Road, & Rajajinagar</p>
+          <ul style="font-size: 13px; color: var(--text-muted); list-style: none; display: flex; flex-direction: column; gap: 8px;">
+            <li>• <strong>High Tensile Spring Wire (IS 4454 Gr 1/2/3, EN 10270-1):</strong> Tata Steel, Usha Martin, Bansal Wire authorized distributors in Peenya.</li>
+            <li>• <strong>Stainless Steel Spring Wire (AISI 302, 304, 316):</strong> Viraj, Garg Inox, Raajratna coil stockists on Tumkur Road.</li>
+            <li>• <strong>Oil Tempered Wire (CrSi / CrV):</strong> High fatigue auto springs wire imported stockists via Chennai-Bangalore freight.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">⚙️</div>
+          <h3>Tooling & Carbide Grinding</h3>
+          <p style="margin-bottom: 12px;"><strong>Tooling:</strong> Feed rollers, quills, cutting pins</p>
+          <ul style="font-size: 13px; color: var(--text-muted); list-style: none; display: flex; flex-direction: column; gap: 8px;">
+            <li>• <strong>Carbide Feed Rollers:</strong> Precision groove wire feed rollers (V-groove, U-groove for 0.5 - 4.0mm) fabricated by precision toolrooms in Peenya 3rd Phase.</li>
+            <li>• <strong>Center Quills & Forming Pins:</strong> Tungsten Carbide (YG15 / YG20) inserts for high abrasive wear resistance with piano wire.</li>
+            <li>• <strong>Wire Straighteners:</strong> 14 to 18 roller dual-plane wire straightener assemblies with quick-lever release.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🔬</div>
+          <h3>Testing & Quality Certification</h3>
+          <p style="margin-bottom: 12px;"><strong>NABL Labs & Equipment:</strong> CMTI, Peenya, Bommasandra</p>
+          <ul style="font-size: 13px; color: var(--text-muted); list-style: none; display: flex; flex-direction: column; gap: 8px;">
+            <li>• <strong>Spring Load Testers:</strong> Dual-load cell (50N & 5000N) digital compression/tension testers (Mikrotech / Star Testing, Bangalore).</li>
+            <li>• <strong>VMS / Profile Projectors:</strong> Optical dimensional verification for 3D wire forms (Banbros / Accurate Gauging, Rajajinagar).</li>
+            <li>• <strong>Central Manufacturing Technology Institute (CMTI):</strong> Tumkur Road, Bangalore — metallurgical, tensile & fatigue testing.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 90-Day Setup Roadmap & Checklist -->
+  <section id="roadmap" style="background: rgba(18, 23, 34, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-badge">PROJECT EXECUTION TIMELINE</span>
+        <h2>90-Day Factory Commissioning Roadmap</h2>
+        <p>
+          Master execution pipeline from signing the machine import contract to securing Tier-1 automotive PPAP approval. Use the interactive stepper or start the animated tour below.
+        </p>
+      </div>
+
+      <!-- Animated Visual Roadmap Stepper Card -->
+      <div class="roadmap-interactive-wrapper">
+        <div class="roadmap-controls-bar">
+          <div>
+            <span class="sub-badge" style="margin-bottom:0;" id="stageCounterBadge">PHASE 1 OF 5 • DAYS 1 TO 20</span>
+            <div style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: #fff;" id="stageHeaderTitle">
+              Contract, LC Advance & Bangalore Shed Lease
+            </div>
+          </div>
+          <button class="btn-auto-tour" id="btnTour" onclick="toggleAutoTour()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor"/></svg>
+            <span id="tourBtnText">Start Animated Tour</span>
+          </button>
+        </div>
+
+        <!-- Stepper Navigation Track -->
+        <div class="stepper-nav">
+          <div class="stepper-progress-fill" id="stepperProgress" style="width: 10%;"></div>
+
+          <div class="step-btn active" id="stepBtn0" onclick="setRoadmapStage(0)">
+            <div class="step-number">1</div>
+            <div class="step-title-text">Procure & Shed</div>
+            <div class="step-days-text">Days 1 – 20</div>
+          </div>
+
+          <div class="step-btn" id="stepBtn1" onclick="setRoadmapStage(1)">
+            <div class="step-number">2</div>
+            <div class="step-title-text">BESCOM & Utilities</div>
+            <div class="step-days-text">Days 21 – 45</div>
+          </div>
+
+          <div class="step-btn" id="stepBtn2" onclick="setRoadmapStage(2)">
+            <div class="step-number">3</div>
+            <div class="step-title-text">Port & Customs</div>
+            <div class="step-days-text">Days 46 – 65</div>
+          </div>
+
+          <div class="step-btn" id="stepBtn3" onclick="setRoadmapStage(3)">
+            <div class="step-number">4</div>
+            <div class="step-title-text">Rigging & Calibrate</div>
+            <div class="step-days-text">Days 66 – 75</div>
+          </div>
+
+          <div class="step-btn" id="stepBtn4" onclick="setRoadmapStage(4)">
+            <div class="step-number">5</div>
+            <div class="step-title-text">PPAP & Production</div>
+            <div class="step-days-text">Days 76 – 90</div>
+          </div>
+        </div>
+
+        <!-- Stage Display Dynamic Visualizer Card -->
+        <div class="stage-display-card">
+          <!-- Animated SVG Frame -->
+          <div class="stage-anim-frame" id="stageAnimContainer">
+            <!-- Rendered by JS setRoadmapStage() -->
+          </div>
+
+          <!-- Stage Detailed Context -->
+          <div class="stage-info-content">
+            <h3 id="stageCardTitle">Procurement, Legal & Shed Acquisition</h3>
+            <p id="stageCardDesc">
+              Negotiate specifications (YLSK-1240 / Solarman / CNC-1280), secure manufacturer CIF Chennai quotation, and release 30% advance via Bank Letter of Credit (LC) or Telegraphic Transfer. Finalize lease agreement for 1,500+ sq.ft industrial shed in Peenya, Narasapura, Bommasandra, or Dabaspet.
+            </p>
+
+            <div style="font-size: 11px; text-transform: uppercase; font-family: var(--font-mono); color: var(--primary); margin-bottom: 8px;">
+              Mandatory Phase Gate-Checks:
+            </div>
+            <ul class="gatecheck-list" id="stageGatechecks">
+              <li class="gatecheck-item"><span class="gatecheck-icon">✓</span> <span>MSME Udyam Registration Certificate generated.</span></li>
+              <li class="gatecheck-item"><span class="gatecheck-icon">✓</span> <span>High-bay industrial shed lease registered (min 14ft clear height).</span></li>
+              <li class="gatecheck-item"><span class="gatecheck-icon">✓</span> <span>Import-Export Code (IEC) mapped with Chennai Sea Port ICEGATE.</span></li>
+            </ul>
+
+            <div class="stage-financial-badge">
+              <span style="color: var(--text-dim);">CapEx Outflow at Phase:</span>
+              <strong style="color: var(--accent-green); font-family: var(--font-mono);" id="stageFinancialText">30% Advance (approx ₹10.2 Lakhs) + Shed Deposit ₹2.5L</strong>
+            </div>
+
+            <div style="margin-top: 14px; background: rgba(255, 145, 0, 0.08); border-left: 3px solid var(--accent-orange); padding: 8px 12px; border-radius: 0 6px 6px 0; font-size: 12px; color: var(--text-muted);" id="stageBangaloreTip">
+              <strong style="color: var(--accent-orange);">Bangalore Ground Insight:</strong> Apply immediately for BESCOM LT-5 power transfer; Karnataka electricity board sanction typically takes 3 to 4 weeks.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chronological Gantt Checklist -->
+      <div style="margin-top: 48px;">
+        <h3 style="font-family: var(--font-heading); font-size: 22px; color: #fff; margin-bottom: 20px;">
+          Full 90-Day Chronological Master Checklist
+        </h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="time-tag">Days 1 – 20: Procurement & Site Selection</span>
+            <h4>Machine Finalization, Advance Payment & Shed Finalization</h4>
+            <p>
+              Finalize manufacturer contract (YLSK / Solarman / CNC-1280) with 30% advance via LC/TT. Sign 1,500 sq.ft industrial shed lease in Peenya/Narasapura/Bommasandra/Dabaspet. File MSME Udyam Registration & apply for BESCOM 25HP industrial power sanction.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="time-tag">Days 21 – 45: Factory Civil Works & Utilities</span>
+            <h4>Floor Foundation, Electrical Wiring & Compressor Setup</h4>
+            <p>
+              Cast/inspect 150mm reinforced concrete floor with epoxy finish. Install 35kVA servo stabilizer, main distribution panel, and copper earthing pits (resistance &lt; 2 ohms). Procure and pipe 5HP screw compressor with refrigerated air dryer.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="time-tag">Days 46 – 65: Shipping & Customs Clearance</span>
+            <h4>Sea Transit to Chennai Port & Inland Transit to Bangalore</h4>
+            <p>
+              Machine sails from Ningbo/Shanghai to Chennai Sea Port (14-18 days transit). Custom House Agent (CHA) completes customs filing (HSN 846229 / 846310, 7.5% BCD + 18% IGST). 40ft high-cube container trucked to Bangalore shed.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="time-tag">Days 66 – 75: Rigging, Leveling & Commissioning</span>
+            <h4>Hydraulic Crane Unloading, Leveling & Power-up</h4>
+            <p>
+              Hire 5-ton Hydra crane for unloading. Position machine on anti-vibration leveling mounts. Mechanical precision leveling with 0.02mm/m spirit level. Wire up 415V power and 7 bar air lines. Calibrate 12 servo axis home points.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="time-tag">Days 76 – 90: Tooling Trial, Staff Training & PPAP</span>
+            <h4>Trial Runs (0.5mm – 4.0mm Wire) & Client Approval</h4>
+            <p>
+              Perform trial runs of compression, German-loop extension, and double-torsion springs using local Tata Steel / SS304 coils. Commission stress relieving conveyor oven. Inspect dimensional repeatability on profile projector and submit PPAP samples to Tier-1 customers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background: #07090e; border-top: 1px solid var(--border-color); padding: 40px 0; text-align: center;">
+    <div class="container">
+      <div style="font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 8px;">
+        12-Axis Camless CNC Spring & Wire Former | Bangalore Setup
+      </div>
+      <p style="color: var(--text-dim); font-size: 13px; max-width: 650px; margin: 0 auto 16px;">
+        Engineered guide for setting up YLSK-1240, Solarman CMM-12-236R, or CNC-1280 machines (0.5mm – 4.0mm, ₹28L – ₹44L investment range) in Peenya, Narasapura, Bommasandra, Dabaspet, and Hosur clusters.
+      </p>
+      <div style="font-family: var(--font-mono); font-size: 12px; color: var(--primary);">
+        Interactive Web Application • Ready for Production & Factory Deployment
+      </div>
+    </div>
+  </footer>
+
+  <!-- Embedded JavaScript for Interactivity -->
+  <script>
+    // Smooth Scrolling Function
+    function scrollToSection(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    // 12-Axis Radial Head Interactive Inspector Data
+    const axisData = {
+      'axis-feed': {
+        title: 'Axis 1 & 2: Wire Feed & Center Quill Rotation',
+        servo: 'Yaskawa Sigma-7 (4.5 kW + 2.7 kW)',
+        desc: 'Continuous wire feed through 2-4 pairs of carbide wire feed rollers. Axis 2 rotates the center quill 360° independently, allowing complex 3D non-planar spatial wire forms without twisting the feed wire or rotating heavy wire coils.'
+      },
+      'slide-1': {
+        title: 'Axis 3: Slide 1 (12 O\'Clock Guillotine Shear)',
+        servo: 'Yaskawa AC Servo 2.0 kW (High Peak Torque)',
+        desc: 'Mounted with heavy-duty tungsten carbide cutter blade. Performs fast guillotine or rotary wedge cutting. Handles tough Ø 4.0mm high-tensile spring steel wire cleanly without deformation or burrs.'
+      },
+      'slide-2': {
+        title: 'Axis 4: Slide 2 (1:30 O\'Clock Auxiliary Forming)',
+        servo: 'AC Servo 1.5 kW',
+        desc: 'Upper right forming arm. Used for auxiliary deflection pins, initial pitch expansion on compression springs, or secondary radius bending on wire forms.'
+      },
+      'slide-3': {
+        title: 'Axis 5: Slide 3 (3 O\'Clock Horizontal Forming)',
+        servo: 'AC Servo 1.5 kW / 2.0 kW',
+        desc: 'Right horizontal slide. Typically holds the primary coiling pin or roller for right-hand coiled springs and initial leg bending for torsion springs.'
+      },
+      'slide-4': {
+        title: 'Axis 6: Slide 4 (4:30 O\'Clock Leg Folding Arm)',
+        servo: 'AC Servo 1.5 kW',
+        desc: 'Lower right forming arm. Critical for double-torsion springs to hold the first coil body while the center loop and second body are being wound.'
+      },
+      'slide-5': {
+        title: 'Axis 7: Slide 5 (6 O\'Clock Bottom Support & Coiler)',
+        servo: 'AC Servo 2.0 kW (Heavy Duty)',
+        desc: 'Direct bottom arm. Used as a high-rigidity forming arbor, bottom coiling point, or pneumatic part ejection assist for finished springs.'
+      },
+      'slide-6': {
+        title: 'Axis 8: Slide 6 (7:30 O\'Clock Spinner Mount)',
+        servo: 'AC Servo 1.5 kW',
+        desc: 'Lower left arm. Often houses a servo spinner motor or specialized hook-bending wedge for English and German extension spring loops.'
+      },
+      'slide-7': {
+        title: 'Axis 9: Slide 7 (9 O\'Clock Left Horizontal Coiler)',
+        servo: 'AC Servo 1.5 kW / 2.0 kW',
+        desc: 'Left horizontal forming slide. Primary tool position for left-hand wound springs, reverse pitch tooling, and extension spring hook pre-bending.'
+      },
+      'slide-8': {
+        title: 'Axis 10: Slide 8 (10:30 O\'Clock Sensor & Finisher)',
+        servo: 'AC Servo 1.5 kW',
+        desc: 'Top-left arm. Frequently fitted with a high-accuracy electronic touch probe. Senses wire position, checks bend angles in-process, and signals the CNC to auto-compensate for springback.'
+      },
+      'spinner-1': {
+        title: 'Axis 11 & 12: Servo Spinners (Rotary Bending Heads)',
+        servo: 'Dual Independent Rotary Servos 1.0 kW each (360° Continuous)',
+        desc: 'Mounted directly onto slides. The spinner tool can revolve 360° continuously around the wire axis, executing loops, eyelets, and intricate bends at high speed without indexing the main quill.'
+      }
+    };
+
+    function selectAxis(key, fallbackTitle, fallbackDesc) {
+      const data = axisData[key] || {
+        title: fallbackTitle,
+        servo: 'AC Servo Motor (1.5kW - 2.0kW)',
+        desc: fallbackDesc
+      };
+
+      document.getElementById('inspectTitle').textContent = data.title;
+      document.getElementById('inspectServo').textContent = data.servo;
+      document.getElementById('inspectDesc').textContent = data.desc;
+
+      // Highlight active node in SVG
+      const nodes = document.querySelectorAll('.axis-node');
+      nodes.forEach(n => n.classList.remove('active'));
+    }
+
+    // Bangalore Clusters Information Matrix
+    const clusterData = {
+      peenya: {
+        title: 'Peenya Industrial Area (Stages 1 to 4) - Bangalore West',
+        tags: ['Established CNC Hub', 'Dense Jobwork Ecosystem', 'BESCOM Power: Good'],
+        rent: '₹28 – ₹42 / sq.ft / month',
+        power: 'LT-5 Industrial BESCOM Feeder (Substation 66kV in Stage 2 & 4)',
+        pros: [
+          'Unrivaled access to wire drawing stockists, carbide tool grinding shops, and heat treatment plants.',
+          'Hundreds of skilled CNC operators and toolroom die-makers living within 5 km.',
+          'Direct access to NH 48 (Tumkur Road) and Bangalore Elevated Tollway.'
+        ],
+        cons: [
+          'Higher shed rentals compared to Dabaspet/Hosur.',
+          'Traffic congestion for heavy 20ft/40ft container movement during daytime.'
+        ],
+        verdict: 'Best for: High-precision jobwork, quick turnaround prototypes, and proximity to central Bangalore.'
+      },
+      narasapura: {
+        title: 'Narasapura Industrial Area (KIADB Phases 1, 2 & 3) - East Bangalore / Kolar (NH 75)',
+        tags: ['Honda 2-Wheelers Mega Hub', 'Direct Chennai Port Highway', 'Modern Auto Cluster'],
+        rent: '₹18 – ₹25 / sq.ft / month',
+        power: 'BESCOM 220/66kV Dedicated Industrial Substation (Clean 3-Phase Grid)',
+        pros: [
+          'Anchor OEM Ecosystem: Massive demand driven by Honda Motorcycle & Scooter India (HMSI mega-plant), Mahindra, Scania, Lumax, and Exide.',
+          'Direct Port Expressway: Located directly on NH 75 (Old Madras Road / Bangalore-Chennai highway) with fastest container transit to/from Chennai Sea Port without Bangalore traffic bottlenecks.',
+          'Large 2-Wheeler Wire Form Volumes: Unmatched continuous orders for 0.5–4.0mm springs (kick-starters, center stands, brake pedals, throttle return springs, clutch dampers, seat frame wires).',
+          'Modern Infrastructure: Wide 80–100 ft roads, spacious high-bay sheds with pre-installed crane gantries and large container parking.'
+        ],
+        cons: [
+          'Carbide tooling and specialized wire coils need to be scheduled from Peenya or Chamarajpet stockists via the Outer Ring Road.',
+          'Distance: ~45–55 km east from central Bangalore.'
+        ],
+        verdict: 'Best for: High-volume automotive tier-1 jobwork for Honda, Lumax, Exide, and lowest container haulage time from Chennai port.'
+      },
+      bommasandra: {
+        title: 'Bommasandra & Jigani Industrial Areas - Bangalore South / Anekal',
+        tags: ['Automotive OEM Corridor', 'Near Bosch, TVS & Toyota', 'Spacious Sheds'],
+        rent: '₹22 – ₹32 / sq.ft / month',
+        power: 'Dedicated KIADB Industrial substations, reliable 3-phase grid',
+        pros: [
+          'Close proximity to massive automotive Tier-1 and Tier-2 factories (Bosch Naganathapura, TVS Hosur border, Ashok Leyland).',
+          'Good roads for heavy container trucks, excellent logistics warehouses nearby.',
+          'Easy access to Electronic City and South Bangalore residential talent.'
+        ],
+        cons: [
+          'Slightly higher transport cost for raw materials coming from North Bangalore/Peenya stockists.'
+        ],
+        verdict: 'Best for: Dedicated suppliers aiming for automotive OEM supply contracts and long production runs.'
+      },
+      dabaspet: {
+        title: 'Dabaspet & Nelamangala (Tumkur Road Corridor)',
+        tags: ['Lowest Rental Cost', 'Direct Port Trucking', 'Large Land Plots'],
+        rent: '₹14 – ₹20 / sq.ft / month',
+        power: 'KIADB Industrial Area 66kV/11kV Dedicated lines',
+        pros: [
+          'Shed rent is 40-50% lower than Peenya (significant savings for a 2,000 sq.ft facility).',
+          'Immediate entry/exit onto 6-lane NH 48 highway; seamless trucking for 40ft containers directly from Chennai Port.',
+          'Plenty of industrial sheds with overhead 5-ton crane gantry already installed.'
+        ],
+        cons: [
+          'Requires company transport or private vehicle for senior technicians commuting from Bangalore city.',
+          'Secondary heat treatment/plating job shops are fewer in immediate vicinity.'
+        ],
+        verdict: 'Best for: Maximum cost efficiency, scalable high-tonnage wire production, and low overheads.'
+      },
+      hosur: {
+        title: 'Hosur SIPCOT Phase I & II (35 km from Bangalore - TN Border)',
+        tags: ['Lower Power Tariffs (TANGEDCO)', 'Auto Capital', '24x7 Water & Power'],
+        rent: '₹18 – ₹26 / sq.ft / month',
+        power: 'TANGEDCO Industrial Tariff (lower demand charges than BESCOM)',
+        pros: [
+          'Surrounded by giant automotive manufacturers: TVS Motor, Titan, Ashok Leyland, Caterpillar, Ather Energy.',
+          'Industrial electricity unit cost and minimum demand charges are generally lower than Karnataka BESCOM.',
+          'Well-developed precision engineering and spring manufacturing cluster.'
+        ],
+        cons: [
+          'Interstate border (commercial tax / toll considerations, though simplified under GST).'
+        ],
+        verdict: 'Best for: Direct OEM supply to TVS, Titan, Ather, and high-volume two-wheeler spring contracts.'
+      },
+      bidadi: {
+        title: 'Bidadi Industrial Area (Mysore Road Corridor)',
+        tags: ['Toyota Kirloskar Belt', 'Clean Industrial Zone', 'Bangalore-Mysore Expressway'],
+        rent: '₹20 – ₹28 / sq.ft / month',
+        power: 'BESCOM Industrial Feeders with good reliability',
+        pros: [
+          'Direct access to Toyota Kirloskar Motor (TKM) ecosystem and suppliers (Bosch Bidadi plant).',
+          'World-class 10-lane Bangalore-Mysore Expressway connectivity.',
+          'Clean, organized KIADB industrial layout with modern shed construction.'
+        ],
+        cons: [
+          'Spring wire suppliers are concentrated in Peenya; requires planned batch raw material deliveries.'
+        ],
+        verdict: 'Best for: Automotive supply chain suppliers targeting Toyota, Bosch, and tier-1 vendor approvals.'
+      }
+    };
+
+    function showCluster(key) {
+      const data = clusterData[key];
+      if (!data) return;
+
+      // Update active tab button
+      const tabs = document.querySelectorAll('.cluster-tab');
+      tabs.forEach(t => t.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const container = document.getElementById('clusterContent');
+      container.innerHTML = `
+        <h3 style="font-family: var(--font-heading); font-size: 24px; color: #fff; margin-bottom: 8px;">
+          ${data.title}
+        </h3>
+        <div class="cluster-badges">
+          ${data.tags.map(t => `<span class="tag-badge tag-cyan">${t}</span>`).join('')}
+        </div>
+        <div class="grid-2" style="margin-bottom: 24px;">
+          <div style="background: var(--bg-subtle); padding: 16px; border-radius: 10px; border: 1px solid var(--border-color);">
+            <div style="font-size: 12px; color: var(--text-dim); text-transform: uppercase; font-family: var(--font-mono);">Industrial Shed Rental</div>
+            <div style="font-size: 20px; font-weight: 700; color: var(--accent-green); font-family: var(--font-mono); margin-top: 4px;">${data.rent}</div>
+          </div>
+          <div style="background: var(--bg-subtle); padding: 16px; border-radius: 10px; border: 1px solid var(--border-color);">
+            <div style="font-size: 12px; color: var(--text-dim); text-transform: uppercase; font-family: var(--font-mono);">Power & Grid Reliability</div>
+            <div style="font-size: 15px; font-weight: 600; color: #fff; margin-top: 4px;">${data.power}</div>
+          </div>
+        </div>
+        <div class="grid-2" style="gap: 20px;">
+          <div>
+            <h4 style="font-size: 15px; color: var(--accent-green); margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+              ✓ Advantages
+            </h4>
+            <ul style="font-size: 13px; color: var(--text-muted); list-style: none; display: flex; flex-direction: column; gap: 8px;">
+              ${data.pros.map(p => `<li>• ${p}</li>`).join('')}
+            </ul>
+          </div>
+          <div>
+            <h4 style="font-size: 15px; color: var(--accent-orange); margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+              ⚠ Trade-offs & Logistics
+            </h4>
+            <ul style="font-size: 13px; color: var(--text-muted); list-style: none; display: flex; flex-direction: column; gap: 8px;">
+              ${data.cons.map(c => `<li>• ${c}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 14px; color: var(--primary);">
+          <strong>Strategic Takeaway:</strong> ${data.verdict}
+        </div>
+      `;
+    }
+
+    // Interactive CapEx and ROI Calculator Logic
+    function updateCalculator() {
+      const machineCostLakhs = parseFloat(document.getElementById('sliderMachineCost').value);
+      const tonnage = parseFloat(document.getElementById('sliderTonnage').value);
+      const wireCostKg = parseFloat(document.getElementById('sliderWireCost').value);
+      const salePriceKg = parseFloat(document.getElementById('sliderSalePrice').value);
+      const monthlyOverhead = parseFloat(document.getElementById('sliderOverhead').value);
+
+      // Display updated slider values
+      document.getElementById('dispMachineCost').textContent = `₹${machineCostLakhs.toFixed(1)} Lakhs`;
+      document.getElementById('dispTonnage').textContent = `${tonnage.toFixed(1)} Metric Tons`;
+      document.getElementById('dispWireCost').textContent = `₹${wireCostKg} / kg`;
+      document.getElementById('dispSalePrice').textContent = `₹${salePriceKg} / kg`;
+      document.getElementById('dispOverhead').textContent = `₹${monthlyOverhead.toLocaleString('en-IN')} / mo`;
+
+      // Calculations
+      const monthlyKg = tonnage * 1000;
+      const monthlyRevenue = monthlyKg * salePriceKg;
+      const monthlyRawMaterial = monthlyKg * wireCostKg;
+      const grossMarginKg = salePriceKg - wireCostKg;
+      const monthlyGrossProfit = monthlyRevenue - monthlyRawMaterial;
+      const monthlyNetProfit = monthlyGrossProfit - monthlyOverhead;
+
+      // Total CapEx includes Machine + Auxiliaries (Decoiler, Oven ₹4.5L, Compressor ₹2.2L, Stabilizer ₹1.3L, Tooling ₹2.5L)
+      const auxiliaryEquipCostLakhs = 10.5; // Lakhs for complete auxiliary setup
+      const totalCapexLakhs = machineCostLakhs + auxiliaryEquipCostLakhs;
+      const totalCapexRupees = totalCapexLakhs * 100000;
+
+      // Payback period in months
+      let paybackMonths = 0;
+      if (monthlyNetProfit > 0) {
+        paybackMonths = (totalCapexRupees / monthlyNetProfit).toFixed(1);
+      } else {
+        paybackMonths = 'N/A (Loss)';
+      }
+
+      // Update DOM
+      document.getElementById('dispTotalCapex').textContent = `₹${totalCapexLakhs.toFixed(1)} Lakhs`;
+      document.getElementById('dispMonthlyRev').textContent = `₹${(monthlyRevenue / 100000).toFixed(2)} Lakhs`;
+      document.getElementById('dispMonthlyRM').textContent = `₹${(monthlyRawMaterial / 100000).toFixed(2)} Lakhs`;
+      document.getElementById('dispMarginKg').textContent = `₹${grossMarginKg} / kg`;
+      document.getElementById('dispNetProfit').textContent = `₹${Math.round(monthlyNetProfit).toLocaleString('en-IN')}`;
+      document.getElementById('dispPayback').textContent = `${paybackMonths} Months`;
+    }
+
+    // ==========================================
+    // ANIMATED VISUAL ROADMAP ENGINE
+    // ==========================================
+    const roadmapStages = [
+      {
+        counter: 'PHASE 1 OF 5 • DAYS 1 TO 20',
+        headerTitle: 'Contract, LC Advance & Bangalore Shed Lease',
+        cardTitle: 'Machine Procurement, Legal Structuring & Shed Lease',
+        desc: 'Finalize machine specification (YLSK-1240 / Solarman / CNC-1280), lock CIF Chennai pricing, and release 30% advance via Bank LC / TT. Register MSME Udyam and execute a registered lease for a 1,500+ sq.ft industrial shed in Peenya, Narasapura, Bommasandra, or Dabaspet.',
+        gatechecks: [
+          'MSME Udyam Registration & IEC (Import Export Code) mapped on ICEGATE.',
+          'Registered lease for industrial shed with min 14 ft ceiling height and wide container access.',
+          'Commercial Invoice & Proforma Contract signed with manufacturer.'
+        ],
+        spend: '30% Advance (~₹10.2 Lakhs) + Shed Lease Deposit ₹2.5 Lakhs',
+        tip: 'Apply immediately for BESCOM LT-5 power sanction / name transfer; electricity board sanction in Karnataka takes 3 to 4 weeks.',
+        svg: `
+          <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="220" rx="12" fill="#0d131f"/>
+            <!-- Blueprint grid -->
+            <path d="M20 40H300M20 80H300M20 120H300M20 160H300M20 200H300" stroke="#182338" stroke-width="1"/>
+            <path d="M60 20V200M120 20V200M180 20V200M240 20V200" stroke="#182338" stroke-width="1"/>
+            
+            <!-- Factory Blueprint Building -->
+            <rect x="40" y="70" width="130" height="90" rx="6" fill="#131c2d" stroke="#00e5ff" stroke-width="2"/>
+            <path d="M40 100L105 50L170 100" stroke="#00e5ff" stroke-width="2" fill="none"/>
+            <rect x="65" y="120" width="30" height="40" fill="#1e2c47" stroke="#00e5ff"/>
+            <rect x="115" y="110" width="35" height="25" fill="#1e2c47" stroke="#00e5ff"/>
+
+            <!-- Rotating Gear for Planning -->
+            <g transform="translate(235, 95)">
+              <circle cx="0" cy="0" r="32" fill="#162238" stroke="#ff9100" stroke-width="2.5" class="pulse-glow-ring"/>
+              <circle cx="0" cy="0" r="14" fill="#0d131f" stroke="#ff9100" stroke-width="2"/>
+              <line x1="-38" y1="0" x2="38" y2="0" stroke="#ff9100" stroke-width="4"/>
+              <line x1="0" y1="-38" x2="0" y2="38" stroke="#ff9100" stroke-width="4"/>
+              <line x1="-27" y1="-27" x2="27" y2="27" stroke="#ff9100" stroke-width="4"/>
+              <line x1="-27" y1="27" x2="27" y2="-27" stroke="#ff9100" stroke-width="4"/>
+            </g>
+
+            <!-- Contract & Coin -->
+            <rect x="195" y="145" width="80" height="35" rx="6" fill="#101826" stroke="#00e676" stroke-width="1.5"/>
+            <text x="235" y="167" font-size="11" fill="#00e676" font-weight="bold" font-family="monospace" text-anchor="middle">30% ADVANCE</text>
+            <circle cx="210" cy="80" r="12" fill="#ff9100" />
+            <text x="210" y="84" font-size="11" fill="#000" font-weight="bold" text-anchor="middle">₹</text>
+          </svg>
+        `
+      },
+      {
+        counter: 'PHASE 2 OF 5 • DAYS 21 TO 45',
+        headerTitle: 'BESCOM Power, Reinforced Flooring & Pneumatics',
+        cardTitle: 'Factory Civil Works, Power Substation & Pneumatics',
+        desc: 'Pour or level 150mm reinforced concrete flooring (M25 grade) with epoxy dust seal. Install 35–40 kVA copper-wound servo voltage stabilizer, LT-5 main distribution panel, and dual earthing pits (<2 ohms). Set up 5HP screw compressor with refrigerated air dryer.',
+        gatechecks: [
+          'Flooring cured and laser-levelled with clear 5-meter wire feed runway.',
+          'Licensed electrical contractor test certificate submitted to BESCOM for LT-5 sanction.',
+          'Refrigerated air dryer piped (0.01 micron moisture-free air at constant 7.5 Bar).'
+        ],
+        spend: 'BESCOM Deposit ₹1.5L + Civil Flooring ₹1.8L + Compressor ₹2.2L + Stabilizer ₹1.3L',
+        tip: 'Dedicated earthing is mandatory for Japanese/Taiwanese servo drives. Never connect CNC earthing with external heavy welding sheds to prevent waveform distortion.',
+        svg: `
+          <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="220" rx="12" fill="#0d131f"/>
+            <!-- 3-Phase Power Panel -->
+            <rect x="35" y="45" width="105" height="135" rx="6" fill="#151d2d" stroke="#00e5ff" stroke-width="2"/>
+            <text x="87" y="70" font-size="10" fill="#00e5ff" font-family="monospace" font-weight="bold" text-anchor="middle">415V 3-PHASE LT-5</text>
+            <!-- 3 Phase Meters -->
+            <circle cx="58" cy="95" r="12" fill="#0a0e17" stroke="#ff4757" stroke-width="2"/>
+            <text x="58" y="99" font-size="9" fill="#ff4757" font-weight="bold" text-anchor="middle">R</text>
+            <circle cx="87" cy="95" r="12" fill="#0a0e17" stroke="#ffbb00" stroke-width="2"/>
+            <text x="87" y="99" font-size="9" fill="#ffbb00" font-weight="bold" text-anchor="middle">Y</text>
+            <circle cx="116" cy="95" r="12" fill="#0a0e17" stroke="#00e5ff" stroke-width="2"/>
+            <text x="116" y="99" font-size="9" fill="#00e5ff" font-weight="bold" text-anchor="middle">B</text>
+            
+            <!-- Lightning / Power arc -->
+            <path d="M87 125L82 145H92L87 165" stroke="#ff9100" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="pulse-glow-ring"/>
+
+            <!-- Compressor & Receiver Tank -->
+            <rect x="175" y="60" width="110" height="70" rx="8" fill="#151e2e" stroke="#00e676" stroke-width="2"/>
+            <text x="230" y="85" font-size="10" fill="#00e676" font-family="monospace" font-weight="bold" text-anchor="middle">SCREW COMPRESSOR</text>
+            <text x="230" y="105" font-size="13" fill="#fff" font-family="monospace" font-weight="bold" text-anchor="middle">7.5 BAR DRY</text>
+            <line x1="175" y1="150" x2="285" y2="150" stroke="#00e676" stroke-width="6" stroke-linecap="round" class="flow-line"/>
+            <text x="230" y="175" font-size="9" fill="#8e9bb3" font-family="monospace" text-anchor="middle">Air Pipe: 0.01µm Filter</text>
+          </svg>
+        `
+      },
+      {
+        counter: 'PHASE 3 OF 5 • DAYS 46 TO 65',
+        headerTitle: 'Ocean Transit, Chennai Customs & Port-to-Shed Haulage',
+        cardTitle: 'Sea Shipping, Customs Clearance & Inland Haulage',
+        desc: 'Machine vessel sails from Ningbo/Shanghai to Chennai Sea Port (14–18 days). Custom House Agent (CHA) submits Bill of Entry under HSN 846229. Customs duty (7.5% BCD + 18% IGST) assessed. 40ft high-cube trailer hauls directly to your factory shed via NH 75.',
+        gatechecks: [
+          'Original Bill of Lading, Certificate of Origin, and Packing List verified.',
+          'Customs Duty & IGST cleared with input tax credit (ITC) mapped to your GSTIN.',
+          '40ft container trailer GPS tracking active from Chennai Port to Bangalore.'
+        ],
+        spend: 'Customs Duty (7.5% BCD + 18% IGST) + Ocean & Inland Freight (~₹6.5 Lakhs)',
+        tip: 'If your shed is in Narasapura (Kolar) or Hosur, the container avoids central Bangalore day-time truck entry restrictions entirely, saving 24-36 hours of transit demurrage.',
+        svg: `
+          <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="220" rx="12" fill="#0d131f"/>
+            <!-- Ocean Waves -->
+            <path d="M10 115Q35 105 60 115T110 115T160 115T210 115T260 115T310 115" stroke="#1d3052" stroke-width="3" fill="none"/>
+            <path d="M10 135Q35 125 60 135T110 135T160 135T210 135T260 135T310 135" stroke="#162540" stroke-width="2" fill="none"/>
+
+            <!-- Cargo Ship -->
+            <path d="M40 95L60 65H150L170 95L155 110H55L40 95Z" fill="#1c283f" stroke="#00e5ff" stroke-width="2"/>
+            <!-- Shipping Container on Ship -->
+            <rect x="75" y="45" width="30" height="20" fill="#00e5ff" rx="2"/>
+            <rect x="110" y="45" width="30" height="20" fill="#ff9100" rx="2"/>
+            <text x="90" y="58" font-size="8" fill="#000" font-weight="bold" text-anchor="middle">CNC</text>
+            <text x="125" y="58" font-size="8" fill="#000" font-weight="bold" text-anchor="middle">12-AX</text>
+
+            <!-- Highway Arrow to Bangalore / Narasapura -->
+            <line x1="180" y1="85" x2="290" y2="85" stroke="#00e676" stroke-width="3" stroke-dasharray="6 4" class="flow-line"/>
+            
+            <!-- Trailer Container Truck -->
+            <g transform="translate(205, 130)">
+              <rect x="0" y="0" width="75" height="30" rx="3" fill="#182338" stroke="#00e676" stroke-width="1.5"/>
+              <text x="37" y="19" font-size="9" fill="#00e676" font-weight="bold" font-family="monospace" text-anchor="middle">NH 75 PORT-EXP</text>
+              <rect x="75" y="10" width="22" height="20" rx="3" fill="#243350" stroke="#00e676" stroke-width="1.5"/>
+              <circle cx="18" cy="33" r="6" fill="#0a0e17" stroke="#00e676" stroke-width="2"/>
+              <circle cx="58" cy="33" r="6" fill="#0a0e17" stroke="#00e676" stroke-width="2"/>
+              <circle cx="85" cy="33" r="6" fill="#0a0e17" stroke="#00e676" stroke-width="2"/>
+            </g>
+            <text x="160" y="200" font-size="11" fill="#fff" font-family="monospace" text-anchor="middle">Chennai Port → Bangalore Shed</text>
+          </svg>
+        `
+      },
+      {
+        counter: 'PHASE 4 OF 5 • DAYS 66 TO 75',
+        headerTitle: 'Hydraulic Rigging, Precision Leveling & Machine Calibration',
+        cardTitle: 'Hydraulic Crane Rigging, Spirit Leveling & Power-On',
+        desc: 'Unload 5,000 kg machine with a 5-ton Hydra crane. Position machine on high-grade anti-vibration leveling mounts. Execute precision machinist spirit leveling (<0.02 mm/meter). Complete electrical & pneumatic hookup and calibrate 12-axis servo origin points.',
+        gatechecks: [
+          'Machinist precision spirit level calibrated across X & Y axes (<0.02 mm/m).',
+          'Anti-vibration leveling elastomer pads torqued down securely.',
+          'Homing sequence and coordinate zero-offset executed for all 12 servo axes.'
+        ],
+        spend: 'Hydra Crane ₹18,000 + Rigging Crew ₹12,000 + Machine Balance 10%',
+        tip: 'Perfect machine leveling prevents wire feed friction and uneven tooling wear, which are the #1 root causes of spring free-length drift in 4.0mm heavy wire forms.',
+        svg: `
+          <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="220" rx="12" fill="#0d131f"/>
+            <!-- Crane Rigging Cables -->
+            <path d="M160 20L110 80M160 20L210 80" stroke="#ff9100" stroke-width="3" stroke-dasharray="4 2"/>
+            <polygon points="152,15 168,15 160,30" fill="#ff9100"/>
+
+            <!-- Machine Body Suspended -->
+            <rect x="90" y="80" width="140" height="75" rx="8" fill="#141c2c" stroke="#00e5ff" stroke-width="2.5"/>
+            <circle cx="160" cy="117" r="24" fill="#0d131f" stroke="#00e5ff" stroke-width="2" class="pulse-glow-ring"/>
+            <text x="160" y="121" font-size="10" fill="#00e5ff" font-weight="bold" font-family="monospace" text-anchor="middle">12-AXIS</text>
+
+            <!-- Anti-vibration Mounts on Floor -->
+            <rect x="95" y="155" width="26" height="12" rx="3" fill="#ff9100"/>
+            <rect x="199" y="155" width="26" height="12" rx="3" fill="#ff9100"/>
+            <line x1="50" y1="167" x2="270" y2="167" stroke="#3b4d6e" stroke-width="4"/>
+
+            <!-- Precision Spirit Level Dial Indicator -->
+            <g transform="translate(160, 188)">
+              <rect x="-60" y="-12" width="120" height="24" rx="12" fill="#0a0f19" stroke="#00e676" stroke-width="2"/>
+              <line x1="-15" y1="-8" x2="-15" y2="8" stroke="#00e676" stroke-width="1.5"/>
+              <line x1="15" y1="-8" x2="15" y2="8" stroke="#00e676" stroke-width="1.5"/>
+              <!-- Centered bubble -->
+              <circle cx="0" cy="0" r="7" fill="#00e676" class="pulse-glow-ring"/>
+              <text x="0" y="2" font-size="6" fill="#000" font-weight="bold" text-anchor="middle">LEVEL</text>
+            </g>
+          </svg>
+        `
+      },
+      {
+        counter: 'PHASE 5 OF 5 • DAYS 76 TO 90',
+        headerTitle: 'Tooling Trials, Continuous Tempering & Automotive PPAP',
+        cardTitle: 'Spring Coiling Trials, Stress-Relief Oven & PPAP Sign-Off',
+        desc: 'Mount tungsten carbide quills and wire feed rollers. Form pilot batches of compression, German-loop extension, and double-torsion springs using local Tata Steel / SS304 coils. Commission in-line mesh belt conveyor oven (250°C–380°C). Inspect CPK on profile projector and submit PPAP Level 3 documentation to Tier-1 clients.',
+        gatechecks: [
+          'Continuous conveyor oven calibrated at 300°C with verified 25-minute stress-relieving dwell.',
+          'Digital spring load-deflection rate tests confirm CPK > 1.67 across 100 sample batch.',
+          'Signed PPAP Part Submission Warrant (PSW) & formal Tier-1 vendor code generated.'
+        ],
+        spend: 'Initial Wire Coils (Tata Steel / SS304) ₹3.5L + Mesh Belt Oven ₹5.5L',
+        tip: 'Submit sample inspection reports along with NABL metallurgical test certificates to purchase heads at Honda Narasapura, TVS Hosur, or Bosch to win immediate monthly delivery schedules.',
+        svg: `
+          <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="320" height="220" rx="12" fill="#0d131f"/>
+            <!-- Machine Wire forming drop chute -->
+            <path d="M40 50L80 50L100 110L70 110" stroke="#00e5ff" stroke-width="3" fill="none"/>
+            <circle cx="95" cy="80" r="14" fill="#131b2a" stroke="#00e5ff" stroke-width="2"/>
+            
+            <!-- Springs falling onto conveyor -->
+            <path d="M100 115 Q108 95 115 115 T130 115" stroke="#ff9100" stroke-width="3" fill="none"/>
+            <path d="M135 125 Q143 105 150 125 T165 125" stroke="#ff9100" stroke-width="3" fill="none"/>
+
+            <!-- In-Line Continuous Oven (Glowing Orange) -->
+            <rect x="145" y="95" width="130" height="50" rx="6" fill="#2d1607" stroke="#ff9100" stroke-width="2"/>
+            <line x1="120" y1="135" x2="285" y2="135" stroke="#ff9100" stroke-width="4" stroke-dasharray="6 4" class="flow-line"/>
+            <text x="210" y="118" font-size="10" fill="#ff9100" font-family="monospace" font-weight="bold" text-anchor="middle">300°C TEMPERING OVEN</text>
+            <text x="210" y="132" font-size="8" fill="#ffbb66" font-family="monospace" text-anchor="middle">Residual Stress Relieved</text>
+
+            <!-- PPAP Green Quality Seal -->
+            <g transform="translate(255, 55)">
+              <circle cx="0" cy="0" r="28" fill="#0d2417" stroke="#00e676" stroke-width="2.5" class="pulse-glow-ring"/>
+              <text x="0" y="-5" font-size="9" fill="#00e676" font-weight="bold" font-family="monospace" text-anchor="middle">PPAP L3</text>
+              <text x="0" y="10" font-size="11" fill="#fff" font-weight="bold" font-family="monospace" text-anchor="middle">CPK 1.72</text>
+              <circle cx="18" cy="-18" r="8" fill="#00e676"/>
+              <text x="18" y="-15" font-size="9" fill="#000" font-weight="bold" text-anchor="middle">✓</text>
+            </g>
+          </svg>
+        `
+      }
+    ];
+
+    let currentRoadmapIndex = 0;
+    let tourIntervalId = null;
+
+    function setRoadmapStage(index) {
+      currentRoadmapIndex = index;
+      const stage = roadmapStages[index];
+      if (!stage) return;
+
+      // Update Header & Badge
+      document.getElementById('stageCounterBadge').textContent = stage.counter;
+      document.getElementById('stageHeaderTitle').textContent = stage.headerTitle;
+      document.getElementById('stageCardTitle').textContent = stage.cardTitle;
+      document.getElementById('stageCardDesc').textContent = stage.desc;
+      document.getElementById('stageFinancialText').textContent = stage.spend;
+      document.getElementById('stageBangaloreTip').innerHTML = `<strong style="color: var(--accent-orange);">Bangalore Ground Insight:</strong> ${stage.tip}`;
+
+      // Update Gatechecks
+      const gateContainer = document.getElementById('stageGatechecks');
+      gateContainer.innerHTML = stage.gatechecks.map(g => `
+        <li class="gatecheck-item"><span class="gatecheck-icon">✓</span> <span>${g}</span></li>
+      `).join('');
+
+      // Update Animated SVG Frame
+      document.getElementById('stageAnimContainer').innerHTML = stage.svg;
+
+      // Update Stepper Progress Bar & Button States
+      const pct = (index / (roadmapStages.length - 1)) * 100;
+      document.getElementById('stepperProgress').style.width = `${Math.max(pct, 10)}%`;
+
+      for (let i = 0; i < 5; i++) {
+        const btn = document.getElementById(`stepBtn${i}`);
+        if (!btn) continue;
+        btn.classList.remove('active', 'completed');
+        if (i === index) {
+          btn.classList.add('active');
+        } else if (i < index) {
+          btn.classList.add('completed');
+        }
+      }
+    }
+
+    function toggleAutoTour() {
+      const btn = document.getElementById('btnTour');
+      const text = document.getElementById('tourBtnText');
+
+      if (tourIntervalId) {
+        clearInterval(tourIntervalId);
+        tourIntervalId = null;
+        btn.classList.remove('tour-active');
+        text.textContent = 'Start Animated Tour';
+      } else {
+        btn.classList.add('tour-active');
+        text.textContent = 'Pause Tour';
+        // Advance immediately then every 4.5 seconds
+        tourIntervalId = setInterval(() => {
+          let next = (currentRoadmapIndex + 1) % roadmapStages.length;
+          setRoadmapStage(next);
+        }, 4500);
+      }
+    }
+
+    // Initialize Default States on Load
+    window.addEventListener('DOMContentLoaded', () => {
+      showCluster('peenya');
+      updateCalculator();
+      setRoadmapStage(0);
+    });
+  </script>
+</body>
+</html>
